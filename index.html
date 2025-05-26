@@ -257,7 +257,10 @@
           min-width: 100%;
       }
     </style>
-    <script src="frame.min.js"></script>
+    <!-- <script src="frame.min.js"></script> -->
+		<script type="module">
+			import iframeResizer from 'https://cdn.jsdelivr.net/npm/iframe-resizer@5.4.6/+esm'
+		</script>
     <script>
       iFrameResize({ log: false }, '#myIframe')
     </script>
