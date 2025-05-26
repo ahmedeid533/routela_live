@@ -43,7 +43,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav ms-auto">
                     <li class="navbar-item">
-												<a href="/" class="nav-link">Homepage</a>
+                        <a href="/routela_live" class="nav-link">Homepage</a>
                     </li>
                     <li class="navbar-item">
                         <a href="about.html" class="nav-link">About Us</a>
@@ -257,12 +257,13 @@
           min-width: 100%;
       }
     </style>
-    <!-- <script src="frame.min.js"></script> -->
+    <script src="frame.min.js"></script>
 		<script type="module">
 			import iframeResizer from 'https://cdn.jsdelivr.net/npm/iframe-resizer@5.4.6/+esm'
+			import "https://cdn.jsdelivr.net/npm/iframe-resizer@5.4.6/+esm"
 		</script>
     <script>
-      iframeResizer({ log: false }, '#myIframe')
+      iFrameResize({ log: true }, '#myIframe')
     </script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
