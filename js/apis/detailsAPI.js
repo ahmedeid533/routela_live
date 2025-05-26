@@ -106,4 +106,4 @@ const Course = function () {
 
         })
 }
-Course();
+// Course();
