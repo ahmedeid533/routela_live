@@ -58,6 +58,6 @@ const Course = function (max_num) {
         })
 }
 
-document.addEventListener("DOMContentLoaded", Course(6))
+// document.addEventListener("DOMContentLoaded", Course(6))
 
 
