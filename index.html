@@ -249,7 +249,7 @@
         </span>
     </div>
     <!-- end of back button -->
-    <iframe id="myIframe" src="./home_bottom.html"></iframe>
+    <iframe id="myIframe" src="home_bottom.html" style="width:1px; min-width:100%; border:none;"></iframe>
 
     <style>
         iframe {
@@ -262,9 +262,17 @@
 			import iframeResizer from 'https://cdn.jsdelivr.net/npm/iframe-resizer@5.4.6/+esm'
 			import "https://cdn.jsdelivr.net/npm/iframe-resizer@5.4.6/+esm"
 		</script>
+		<!-- In Host page -->
+		<script src="https://cdn.jsdelivr.net/npm/iframe-resizer/js/iframeResizer.min.js"></script>
+		
+		<!-- In iframe page -->
+		<script src="https://cdn.jsdelivr.net/npm/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+
+
     <script>
-      iFrameResize({ log: true }, '#myIframe')
+      iFrameResize({ log: true }, '#myIframe');
     </script>
+		
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/wow.min.js"></script>
